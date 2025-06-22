@@ -15,6 +15,10 @@ const navLinks = [
     name: "Testimonials",
     link: "#testimonials",
   },
+  {
+    name: "Socials",
+    link: "https://beacons.ai/omarmustafa",
+  },
 ];
 
 const words = [

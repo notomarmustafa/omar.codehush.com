@@ -25,7 +25,10 @@ const Hero = () => {
     return (
         <section id="hero" className="relative overflow-hidden">
             <div className="absolute top-0 left-0 z-10">
-                <img src="/images/bg.png" alt="background" />
+                <img src="/images/bg.png" alt="background"/>
+            </div>
+            <div className="absolute bottom-100 right-0 hidden md:block">
+                <img src="/images/bg.png" alt="background"/>
             </div>
 
             <div className="hero-layout">
@@ -58,20 +61,20 @@ const Hero = () => {
                             Hi, I'm Omar, a developer based in the United States with a passion for code.
                         </p>
                         <Button
-                        className="md:w-80 md:h-16 w-60 h-12"
-                        id="button"
-                        text="See my Work"
+                            className="md:w-80 md:h-16 w-60 h-12"
+                            id="button"
+                            text="See my Work"
                         />
                     </div>
                 </header>
                 {/*RIGHT: 3D MODEL */}
                 <figure>
                     <div className="hero-3d-layout">
-                        <HeroExperience />
+                        <HeroExperience/>
                     </div>
                 </figure>
             </div>
-            <AnimatedCounter />
+            <AnimatedCounter/>
         </section>
     )
 }

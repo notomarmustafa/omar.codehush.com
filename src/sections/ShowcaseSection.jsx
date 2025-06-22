@@ -45,31 +45,109 @@ const ShowcaseSection = () => {
                 <div className="showcaselayout">
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={hushbotRef}>
-                        <div className="image-wrapper">
-                            <img src="/images/hushbot.png" alt="Hush Bot" />
+                      <div className="relative group xl:h-[70vh] md:h-[50vh] h-96 rounded-xl overflow-hidden">
+                        <img
+                          src="/images/hushbot.png"
+                          alt="Hush Bot"
+                          className="w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-70 flex flex-col items-center justify-center gap-4 transition-opacity duration-300">
+                          <a
+                            href="https://hush.codehush.com"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                          >
+                            Demo
+                          </a>
+                          <a
+                            href="https://github.com/notomarmustafa/hush.codehush.com"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                          >
+                            View Code
+                          </a>
                         </div>
-                        <div className="text-content">
-                            <h2>Hush Bot, Your Ultimate Discord Companion for Fun, Moderation, and Community Engagement!</h2>
-                            <p className="text-white-50 md:text-xl">
-                                Hush Bot is a versatile Discord bot designed to enhance community engagement and moderation on servers. It features a variety of commands.
-                            </p>
-                        </div>
+                      </div>
+
+                      <div className="text-content">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-5">
+                          Hush Bot, Your Ultimate Discord Companion for Fun, Moderation, and Community Engagement!
+                        </h2>
+                        <p className="text-white-50 md:text-xl mt-2">
+                          Hush Bot is a versatile Discord bot designed to enhance community engagement and moderation on servers. It features a variety of commands.
+                        </p>
+                      </div>
                     </div>
 
                     {/* RIGHT */}
                     <div className="project-list-wrapper overflow-hidden" ref={virisRef}>
-                        <div className="project">
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Viris"/>
-                            </div>
-                            <h2>AI-Powered Interview Website for Programmers.</h2>
+
+                      {/* Viris Project */}
+                      <div className="project">
+                        <div className="relative group xl:h-[37vh] md:h-52 lg:h-72 h-64 bg-transparent rounded-xl overflow-hidden">
+                          <img
+                            src="/images/viris.png"
+                            alt="Viris"
+                            className="w-full h-full object-contain rounded-xl transition-transform duration-300 group-hover:scale-105"
+                          />
+                          <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-70 flex flex-col items-center justify-center gap-4 transition-opacity duration-300">
+                            <a
+                              href="https://viris.codehush.com"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                            >
+                              Demo
+                            </a>
+                            <a
+                              href="https://github.com/notomarmustafa/viris.codehush.com"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                            >
+                              View Code
+                            </a>
+                          </div>
                         </div>
-                        <div className="project" ref={chatRef}>
-                            <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="chat.codehush.com"/>
-                            </div>
-                            <h2>Discord clone that is fully functional for educational purposes only!</h2>
+                        <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
+                          AI-Powered Interview Website for Programmers.
+                        </h2>
+                      </div>
+
+                      {/* Chat Project */}
+                      <div className="project" ref={chatRef}>
+                        <div className="relative group xl:h-[37vh] md:h-52 lg:h-72 h-64 bg-transparent rounded-xl overflow-hidden">
+                          <img
+                            src="/images/chat.png"
+                            alt="chat.codehush.com"
+                            className="w-full h-full object-contain rounded-xl transition-transform duration-300 group-hover:scale-105"
+                          />
+                          <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-70 flex flex-col items-center justify-center gap-4 transition-opacity duration-300">
+                            <a
+                              href="https://chat.codehush.com"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                            >
+                              Demo
+                            </a>
+                            <a
+                              href="https://github.com/notomarmustafa/chat.codehush.com"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
+                            >
+                              View Code
+                            </a>
+                          </div>
                         </div>
+                        <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
+                          Discord clone that is fully functional for educational purposes only!
+                        </h2>
+                      </div>
+
                     </div>
                 </div>
             </div>
