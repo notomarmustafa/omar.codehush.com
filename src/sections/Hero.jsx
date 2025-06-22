@@ -60,11 +60,24 @@ const Hero = () => {
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hi, I'm Omar, a developer based in the United States with a passion for code.
                         </p>
-                        <Button
-                            className="md:w-80 md:h-16 w-60 h-12"
-                            id="button"
-                            text="See my Work"
-                        />
+                        <div className="flex flex-wrap md:flex-row flex-col gap-4 z-10">
+                            <Button
+                                className="md:w-80 md:h-16 w-60 h-12"
+                                id="button"
+                                text="See my Work"
+                            />
+                            <button className="md:w-80 md:h-16 w-60 h-12">
+                                <div className="cta-button group">
+                                    <div className="bg-circle"/>
+                                    <p className="text">
+                                        <a href="/OmarMustafa.pdf" download>Download CV</a>
+                                    </p>
+                                    <div className="arrow-wrapper">
+                                        <img src="/images/arrow-down.svg" alt="arrow"/>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </header>
                 {/*RIGHT: 3D MODEL */}
