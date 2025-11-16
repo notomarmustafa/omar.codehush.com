@@ -11,5 +11,11 @@
   "navTestimonials": "Testimonials",
   "navSocials": "Socials",
   "Contact Button": "Contact me",
-  "logoName": "Omar Mustafa"
+  "logoName": "Omar Mustafa",
+  "heroWords": {
+    "Ideas": "Ideas",
+    "Concepts": "Concepts",
+    "Designs": "Designs",
+    "Code": "Code"
+  }
 }

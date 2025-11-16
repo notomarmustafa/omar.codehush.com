@@ -11,5 +11,11 @@
   "navTestimonials": "الشهادات",
   "navSocials": "وسائل التواصل",
   "Contact Button": "تواصل معي",
-  "logoName": "عمر مصطفى"
+  "logoName": "عمر مصطفى",
+  "heroWords": {
+    "Ideas": "أفكار",
+    "Concepts": "مفاهيم",
+    "Designs": "تصاميم",
+    "Code": "كود"
+  }
 }
