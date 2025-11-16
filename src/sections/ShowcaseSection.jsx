@@ -61,12 +61,12 @@ const ShowcaseSection = () => {
                             Demo
                           </a>
                           <a
-                            href="https://github.com/notomarmustafa/hush.codehush.com"
+                            href="https://hush.codehush.com"
                             target="_blank"
                             rel="noreferrer"
                             className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
                           >
-                            View Code
+                            Website
                           </a>
                         </div>
                       </div>
