@@ -178,45 +178,39 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
+    name: "testimonial_name_1",
     mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Omar. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+    review: "testimonial_review_1",
     imgPath: "/images/clients/client1.png",
   },
   {
-    name: "Wade Warren",
+    name: "testimonial_name_2",
     mentions: "@wadewarren",
-    review:
-      "Working with Omar was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+    review: "testimonial_review_2",
     imgPath: "/images/clients/client3.png",
   },
   {
-    name: "Guy Hawkins",
+    name: "testimonial_name_3",
     mentions: "@guyhawkins",
-    review:
-      "Collaborating with Omar was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Omar's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Omar is the ideal partner.",
+    review: "testimonial_review_3",
     imgPath: "/images/clients/client2.png",
   },
   {
-    name: "Marvin McKinney",
+    name: "testimonial_name_4",
     mentions: "@marvinmckinney",
-    review:
-      "Omar was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+    review: "testimonial_review_4",
     imgPath: "/images/clients/client5.png",
   },
   {
-    name: "Floyd Miles",
+    name: "testimonial_name_5",
     mentions: "@floydmiles",
-    review:
-      "Omar's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+    review: "testimonial_review_5",
     imgPath: "/images/clients/client4.png",
   },
   {
-    name: "Albert Flores",
+    name: "testimonial_name_6",
     mentions: "@albertflores",
-    review:
-      "Omar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+    review: "testimonial_review_6",
     imgPath: "/images/clients/client6.png",
   },
 ];
