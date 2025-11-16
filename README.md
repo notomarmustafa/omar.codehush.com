@@ -48,14 +48,3 @@ Each project card links to its live demo, and the “View Code” button leads d
 - **Animations:** GSAP’s ScrollTrigger animates the opacity/y-position of each section for dynamic entry effects.
 - **Styling:** Built with Tailwind CSS—using custom utility classes layered into `index.css`.
 
----
-
-## 📂 Getting Started
-
-Clone the repo and jump in:
-
-```bash
-git clone https://github.com/notomarmustafa/portfolio.git
-cd portfolio
-npm install
-npm run dev
