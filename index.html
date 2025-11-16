@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omar Mustafa &mdash;&mdash; Portfolio</title>
+    <title></title>
+    <script>
+      const fullTitle = "Welcome to Omar's Portfolio!";
+      let index = 0;
+
+      function typeTitle() {
+        if (index <= fullTitle.length) {
+          document.title = fullTitle.substring(0, index) + "_";
+          index++;
+          setTimeout(typeTitle, 400);
+        } else {
+          
+          setTimeout(() => {
+            index = 0;
+            typeTitle();
+          }, 2000); 
+        }
+      }
+
+      
+      typeTitle();
+  </script>
+
   </head>
   <body>
     <div id="root"></div>
