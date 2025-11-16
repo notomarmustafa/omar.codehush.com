@@ -4,6 +4,9 @@ import { useTranslation } from "react-i18next";
 const languages = [
   { code: "en", name: "English", flag: "/images/flags/us.png" },
   { code: "ar", name: "العربية", flag: "/images/flags/ar.png" },
+  { code: "es", name: "Español", flag: "/images/flags/es.png" },
+  { code: "fr", name: "Français", flag: "/images/flags/fr.png" },
+  { code: "ja", name: "日本語", flag: "/images/flags/ja.png" },
 ];
 
 const LanguageSwitcher = () => {

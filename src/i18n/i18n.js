@@ -4,6 +4,9 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import en from "./en.json";
 import ar from "./ar.json";
+import es from "./es.json";
+import fr from "./fr.json";
+import ja from "./ja.json";
 
 i18n
   .use(LanguageDetector)       // detect browser/device language
@@ -12,6 +15,9 @@ i18n
     resources: {
       en: { translation: en },
       ar: { translation: ar },
+      es: { translation: es },
+      fr: { translation: fr },
+      ja: { translation: ja },
     },
     fallbackLng: "en",          // default to English if language not found
     detection: {
