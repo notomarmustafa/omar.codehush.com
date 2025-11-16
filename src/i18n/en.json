@@ -89,5 +89,15 @@
   "testimonial_name_5": "Floyd Miles",
   "testimonial_review_5": "Omar's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
   "testimonial_name_6": "Albert Flores",
-  "testimonial_review_6": "Omar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch."
+  "testimonial_review_6": "Omar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+  "contact_title": "Get in Touch - Let's Connect",
+  "contact_sub": "💬 Have questions or ideas? Let’s talk! 🚀",
+  "contact_name_label": "Your name",
+  "contact_name_placeholder": "What’s your good name?",
+  "contact_email_label": "Your Email",
+  "contact_email_placeholder": "What’s your email address?",
+  "contact_message_label": "Your Message",
+  "contact_message_placeholder": "How can I help you?",
+  "contact_button_send": "Send Message",
+  "contact_button_sending": "Sending..."
 }
