@@ -99,5 +99,7 @@
   "contact_message_label": "Your Message",
   "contact_message_placeholder": "How can I help you?",
   "contact_button_send": "Send Message",
-  "contact_button_sending": "Sending..."
+  "contact_button_sending": "Sending...",
+  "footer_terms": "Terms and Conditions",
+  "footer_text": "All rights reserved."
 }

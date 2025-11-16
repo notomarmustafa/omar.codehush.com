@@ -99,5 +99,7 @@
   "contact_message_label": "رسالتك",
   "contact_message_placeholder": "كيف يمكنني مساعدتك؟",
   "contact_button_send": "إرسال الرسالة",
-  "contact_button_sending": "جاري الإرسال..."
+  "contact_button_sending": "جاري الإرسال...",
+  "footer_terms": "الشروط والأحكام",
+  "footer_text": "جميع الحقوق محفوظة."
 }
