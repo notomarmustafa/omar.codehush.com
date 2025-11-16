@@ -4,8 +4,11 @@ import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+    const { t } = useTranslation();
+
     useGSAP(() => {
         gsap.fromTo('.hero-text h1',
             {
@@ -54,23 +57,23 @@ const Hero = () => {
                                 </span>
                                </span>
                             </h1>
-                            <h1>into Real Projects</h1>
-                            <h1>that Deliver Results</h1>
+                            <h1>{t("heroSubtitle1")}</h1>
+                            <h1>{t("heroSubtitle2")}</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I'm Omar, a developer based in the United States with ideas and code.
+                            {t("heroDescription")}
                         </p>
                         <div className="flex flex-wrap md:flex-row flex-col gap-4 z-10">
                             <Button
                                 className="md:w-80 md:h-16 w-60 h-12"
                                 id="button"
-                                text="See my Work"
+                                text={t("heroButton1")}
                             />
                             <button className="md:w-80 md:h-16 w-60 h-12">
                                 <div className="cta-button group">
                                     <div className="bg-circle"/>
                                     <p className="text">
-                                        <a href="/Omar Mustafa.pdf" download>Download CV</a>
+                                        <a href="/Omar Mustafa.pdf" download>{t("heroButton2")}</a>
                                     </p>
                                     <div className="arrow-wrapper">
                                         <img src="/images/arrow-down.svg" alt="arrow"/>

@@ -1,24 +1,9 @@
 const navLinks = [
-  {
-    name: "Work",
-    link: "#work",
-  },
-  {
-    name: "Experience",
-    link: "#experiance",
-  },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
-  {
-    name: "Socials",
-    link: "https://beacons.ai/omarmustafa",
-  },
+  { name: "navWork", link: "#work" },
+  { name: "navExperience", link: "#experience" },
+  { name: "navSkills", link: "#skills" },
+  { name: "navTestimonials", link: "#testimonials" },
+  { name: "navSocials", link: "https://beacons.ai/omarmustafa" },
 ];
 
 const words = [
