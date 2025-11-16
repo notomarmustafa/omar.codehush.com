@@ -65,5 +65,11 @@
   "Python Developer": "Python Developer",
   "Backend Developer": "Backend Developer",
   "Interactive Developer": "Interactive Developer",
-  "Project Manager": "Project Manager"
+  "Project Manager": "Project Manager",
+  "ability_quality_focus": "Quality Focus",
+  "ability_quality_focus_desc": "Delivering high-quality results while maintaining attention to every detail.",
+  "ability_reliable_communication": "Reliable Communication",
+  "ability_reliable_communication_desc": "Keeping you updated at every step to ensure transparency and clarity.",
+  "ability_on_time_delivery": "On-Time Delivery",
+  "ability_on_time_delivery_desc": "Making sure projects are completed on schedule, with quality & attention to detail."
 }

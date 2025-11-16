@@ -65,5 +65,11 @@
   "Python Developer": "مطور Python",
   "Backend Developer": "مطور Backend",
   "Interactive Developer": "مطور تفاعلي",
-  "Project Manager": "مدير مشروع"
+  "Project Manager": "مدير مشروع",
+  "ability_quality_focus": "التركيز على الجودة",
+  "ability_quality_focus_desc": "تقديم نتائج عالية الجودة مع الحفاظ على الاهتمام بكل التفاصيل.",
+  "ability_reliable_communication": "التواصل الموثوق",
+  "ability_reliable_communication_desc": "إبقاؤك محدثًا في كل خطوة لضمان الشفافية والوضوح.",
+  "ability_on_time_delivery": "التسليم في الوقت المحدد",
+  "ability_on_time_delivery_desc": "ضمان إتمام المشاريع في الوقت المحدد، مع جودة واهتمام بالتفاصيل."
 }
