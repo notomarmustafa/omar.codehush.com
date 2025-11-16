@@ -17,5 +17,46 @@
     "Concepts": "Concepts",
     "Designs": "Designs",
     "Code": "Code"
-  }
+  },
+  "buttons": {
+    "demo": "Demo",
+    "website": "Website",
+    "viewCode": "View Code"
+  },
+
+  "work": {
+    "hushbot": {
+      "title": "Hush Bot, Your Ultimate Discord Companion for Fun, Moderation, and Community Engagement!",
+      "desc": "Hush Bot is a versatile Discord bot designed to enhance community engagement and moderation on servers. It features a variety of commands."
+    },
+
+    "viris": {
+      "title": "AI-Powered Interview Website for Programmers."
+    },
+
+    "chat": {
+      "title": "Discord clone that is fully functional for educational purposes only!"
+    }
+  },
+  "exp_title": "Professional Work Experience",
+  "exp_sub": "💼 My Career Overview",
+  "exp_responsibilities": "Responsibilities",
+
+  "exp_title_1": "Full Stack Developer and Founder",
+  "exp_review_1": "Omar is a natural leader and innovator. He built Code Hush from the ground up and consistently brings smart ideas, clean code, and real dedication to every project.",
+  "exp_1_r1": "Founded and developed Code Hush, offering custom software and AI tools.",
+  "exp_1_r2": "Built modern web interfaces and automation systems.",
+  "exp_1_r3": "Led full-stack development and feature expansion.",
+
+  "exp_title_2": "Frontend Developer",
+  "exp_review_2": "Working with Omar was effortless. he’s organized, reliable, and always delivers high-quality work. Our project wouldn’t have come together the same without him.",
+  "exp_2_r1": "Developed a farm website with a team using Ruby.",
+  "exp_2_r2": "Built UI components and handled backend routing.",
+  "exp_2_r3": "Collaborated on code reviews and project structure.",
+
+  "exp_title_3": "Full Stack Developer",
+  "exp_review_3": "Omar was incredibly professional and creative. He transformed our website with modern design and smooth functionality, and always communicated clearly with the team.",
+  "exp_3_r1": "Created and improved the Minecraft server’s website.",
+  "exp_3_r2": "Designed responsive layouts and server info pages.",
+  "exp_3_r3": "Worked with staff to match branding and features."
 }

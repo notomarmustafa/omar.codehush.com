@@ -5,10 +5,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import { useTranslation } from "react-i18next";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   useGSAP(() => {
     gsap.utils.toArray(".timeline-card").forEach((card) => {
       gsap.from(card, {
@@ -60,15 +63,15 @@ const Experience = () => {
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
-          sub="💼 My Career Overview"
+          title={t("exp_title")}
+          sub={t("exp_sub")}
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard card={card}>
+                  <GlowCard card={{ ...card, review: t(card.review) }}>
                     <div>
                       <img src={card.imgPath} alt="exp-img" />
                     </div>
@@ -85,18 +88,18 @@ const Experience = () => {
                         <img src={card.logoPath} alt="logo" />
                       </div>
                       <div>
-                        <h1 className="font-semibold text-3xl">{card.title}</h1>
+                        <h1 className="font-semibold text-3xl">{t(card.title)}</h1>
                         <p className="my-5 text-white-50">
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          {t("exp_responsibilities")}
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
                             (responsibility, index) => (
                               <li key={index} className="text-lg">
-                                {responsibility}
+                                {t(responsibility)}
                               </li>
                             )
                           )}

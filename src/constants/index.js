@@ -124,41 +124,41 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Omar is a natural leader and innovator. He built Code Hush from the ground up and consistently brings smart ideas, clean code, and real dedication to every project.",
+    review: "exp_review_1",
     imgPath: "/images/work/codehush.png",
     logoPath: "/images/work/ch-icon.png",
-    title: "Full Stack Developer and Founder",
+    title: "exp_title_1",
     date: "January 2020 - Present",
     responsibilities: [
-      "Founded and developed Code Hush, offering custom software and AI tools.",
-      "Built modern web interfaces and automation systems.",
-      "Led full-stack development and feature expansion.",
-    ],
+      "exp_1_r1",
+      "exp_1_r2",
+      "exp_1_r3"
+    ]
   },
   {
-    review: "Working with Omar was effortless. he’s organized, reliable, and always delivers high-quality work. Our project wouldn’t have come together the same without him.",
+    review: "exp_review_2",
     imgPath: "/images/work/perfectplantfarm.png",
     logoPath: "/images/work/perfectplantfarm-icon.png",
-    title: "Frontend Developer",
+    title: "exp_title_2",
     date: "February 2023 - July 2023",
     responsibilities: [
-      "Developed a farm website with a team using Ruby.",
-      "Built UI components and handled backend routing.",
-      "Collaborated on code reviews and project structure.",
-    ],
+      "exp_2_r1",
+      "exp_2_r2",
+      "exp_2_r3"
+    ]
   },
   {
-    review: "Omar was incredibly professional and creative. He transformed our website with modern design and smooth functionality, and always communicated clearly with the team.",
+    review: "exp_review_3",
     imgPath: "/images/work/opiumnetworks.png",
     logoPath: "/images/work/opiumnetworks-icon.png",
-    title: "Full Stack Developer",
+    title: "exp_title_3",
     date: "July 2025 - Present",
     responsibilities: [
-      "Created and improved the Minecraft server’s website.",
-      "Designed responsive layouts and server info pages.",
-      "Worked with staff to match branding and features.",
-    ],
-  },
+      "exp_3_r1",
+      "exp_3_r2",
+      "exp_3_r3"
+    ]
+  }
 ];
 
 const expLogos = [
