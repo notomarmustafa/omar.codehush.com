@@ -4,8 +4,11 @@ import {techStackIcons} from "../constants/index.js";
 import TechIcon from "../components/models/TechLogos/TechIcon.jsx";
 import {useGSAP} from "@gsap/react";
 import { gsap } from "gsap";
+import { useTranslation } from "react-i18next";
 
 const TechStack = () => {
+    const { t } = useTranslation();
+
     useGSAP(() => {
         gsap.fromTo('.tech-card', { y: 50, opacity: 0 }, {
             y: 0,
@@ -24,8 +27,8 @@ const TechStack = () => {
         <div id="skills" className="flex-center section-padding">
             <div className="w-full h-full md:px-10 px-5">
                 <TitleHeader
-                    title="My Preferred Tech Stack"
-                    sub="🤝 What Skills I Bring to the Table"
+                    title={t("tech_title", "My Preferred Tech Stack")}
+                    sub={t("tech_sub", "🤝 What Skills I Bring to the Table")}
                 />
 
                 <div className="tech-grid">
@@ -38,7 +41,7 @@ const TechStack = () => {
                                 </div>
 
                                 <div className="padding-x w-full">
-                                    <p>{icon.name}</p>
+                                    <p>{t(icon.name)}</p>
                                 </div>
                             </div>
                         </div>
