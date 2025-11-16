@@ -34,60 +34,48 @@ const words = [
 
 const counterItems = [
   { value: 5, suffix: "+", label: "Years of Experience" },
-  { value: 850, suffix: "+", label: "Total Contributions" },
-  { value: 50, suffix: "+", label: "Completed Projects" },
+  { value: 900, suffix: "+", label: "Total Contributions" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
   { value: 850, suffix: "+", label: "Reputation" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/codehush.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/enduryx.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/viris.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/nilepainting.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/alphatoomega.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/perfectplantfarm.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/opiumnetworks.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/other/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "/images/other/person.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "/images/other/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -151,39 +139,39 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    review: "Omar is a natural leader and innovator. He built Code Hush from the ground up and consistently brings smart ideas, clean code, and real dedication to every project.",
+    imgPath: "/images/work/codehush.png",
+    logoPath: "/images/work/ch-icon.png",
+    title: "Full Stack Developer and Founder",
+    date: "January 2020 - Present",
+    responsibilities: [
+      "Founded and developed Code Hush, offering custom software and AI tools.",
+      "Built modern web interfaces and automation systems.",
+      "Led full-stack development and feature expansion.",
+    ],
+  },
+  {
+    review: "Working with Omar was effortless. he’s organized, reliable, and always delivers high-quality work. Our project wouldn’t have come together the same without him.",
+    imgPath: "/images/work/perfectplantfarm.png",
+    logoPath: "/images/work/perfectplantfarm-icon.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "February 2023 - July 2023",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed a farm website with a team using Ruby.",
+      "Built UI components and handled backend routing.",
+      "Collaborated on code reviews and project structure.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review: "Omar was incredibly professional and creative. He transformed our website with modern design and smooth functionality, and always communicated clearly with the team.",
+    imgPath: "/images/work/opiumnetworks.png",
+    logoPath: "/images/work/opiumnetworks-icon.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "July 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Created and improved the Minecraft server’s website.",
+      "Designed responsive layouts and server info pages.",
+      "Worked with staff to match branding and features.",
     ],
   },
 ];
@@ -191,15 +179,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "/images/work/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "/images/work/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: "/images/work/logo3.png",
   },
 ];
 
@@ -208,62 +196,61 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "I can’t say enough good things about Omar. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+    imgPath: "/images/clients/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Omar was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+    imgPath: "/images/clients/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Collaborating with Omar was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Omar's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Omar is the ideal partner.",
+    imgPath: "/images/clients/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Omar was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+    imgPath: "/images/clients/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Omar's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+    imgPath: "/images/clients/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Omar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+    imgPath: "/images/clients/client6.png",
   },
 ];
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "linkedin",
+    imgPath: "/images/socials/linkedin.png",
+    url: "https://www.linkedin.com/in/notomarmustafa/",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/socials/github.png",
+    url: "https://github.com/notomarmustafa",
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/socials/x.png",
+    url: "https://x.com/notomarmustafa",
   },
 ];
 

@@ -47,13 +47,13 @@ const ShowcaseSection = () => {
                     <div className="first-project-wrapper" ref={hushbotRef}>
                       <div className="relative group xl:h-[70vh] md:h-[50vh] h-96 rounded-xl overflow-hidden">
                         <img
-                          src="/images/hushbot.png"
+                          src="/images/projects/hushbot.png"
                           alt="Hush Bot"
                           className="w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-70 flex flex-col items-center justify-center gap-4 transition-opacity duration-300">
                           <a
-                            href="https://hush.codehush.com"
+                            href="https://discord.com/oauth2/authorize?client_id=1231284260963483748"
                             target="_blank"
                             rel="noreferrer"
                             className="px-4 py-2 border-2 border-white text-white rounded hover:bg-white hover:text-black transition"
@@ -88,7 +88,7 @@ const ShowcaseSection = () => {
                       <div className="project">
                         <div className="relative group xl:h-[37vh] md:h-52 lg:h-72 h-64 bg-transparent rounded-xl overflow-hidden">
                           <img
-                            src="/images/viris.png"
+                            src="/images/projects/viris.png"
                             alt="Viris"
                             className="w-full h-full object-contain rounded-xl transition-transform duration-300 group-hover:scale-105"
                           />
@@ -120,7 +120,7 @@ const ShowcaseSection = () => {
                       <div className="project" ref={chatRef}>
                         <div className="relative group xl:h-[37vh] md:h-52 lg:h-72 h-64 bg-transparent rounded-xl overflow-hidden">
                           <img
-                            src="/images/chat.png"
+                            src="/images/projects/chat.png"
                             alt="chat.codehush.com"
                             className="w-full h-full object-contain rounded-xl transition-transform duration-300 group-hover:scale-105"
                           />
