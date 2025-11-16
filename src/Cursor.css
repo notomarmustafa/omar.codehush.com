@@ -1,0 +1,14 @@
+body, a, button, input, textarea, select {
+  cursor: none !important; /* hide default cursor everywhere */
+}
+
+
+.custom-cursor {
+  position: fixed;
+  width: 50px; /* adjust size to your animated cursor */
+  height: 50px;
+  pointer-events: none; /* allow clicks through cursor */
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.05s ease; /* smooth movement */
+}
