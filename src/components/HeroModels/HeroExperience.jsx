@@ -3,6 +3,7 @@ import {OrbitControls} from "@react-three/drei";
 import {useMediaQuery} from "react-responsive";
 import {Room} from "./Room.jsx";
 import HeroLights from "./HeroLights.jsx";
+// Removed Environment import to avoid remote HDR fetches that can 404
 import Particles from "./Particles.jsx";
 
 const HeroExperience = () => {
@@ -13,8 +14,7 @@ const HeroExperience = () => {
         <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
             <OrbitControls
             enablePan={false}
-            enableZoom={!isTablet}
-            enableZoom={!isMobile}
+            enableZoom={!(isTablet || isMobile)}
             maxDistance={20}
             minDistance={5}
             minPolarAngle={Math.PI / 5}
@@ -22,6 +22,10 @@ const HeroExperience = () => {
             />
 
             <HeroLights />
+            {/* Environment with remote HDR removed to prevent 404/errors. */}
+            {/* Add a small ambient/hemisphere light as a fallback so the scene remains lit. */}
+            <ambientLight intensity={0.4} />
+            <hemisphereLight intensity={0.2} />
 
             <Particles count={100} />
             <group
